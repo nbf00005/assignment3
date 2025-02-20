@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eBuy - Home</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the CSS file -->
+</head>
+<body>
+    <header>
+        <div>
+            <h1>eBuy</h1>
+        </div>
+        <!-- Horizontal Navbar -->
+        <ul>
+            <li><a class="active" href="/back.html">Home</a></li>
+            <li><a href="/back.html">About Us</a></li>
+            <li><a href="/back.html">Contact</a></li>
+        </ul>
+    </header>
+
+    <div class="main-content">
+        <!-- Left Column with Vertical Navbar -->
+        <div class="left-col">
+            <label>Categories</label>
+            <ul class="navbar">
+                <li><a href="/back.html">Electronics</a></li>
+                <li><a href="/back.html">School</a></li>
+                <li><a href="/back.html">Home Goods</a></li>
+                <li><a href="/back.html">Travel</a></li>
+            </ul>
+        </div>
+
+        <!-- Right Column (Image Gallery) -->
+        <div class="right-col">
+            <div class="gallery">
+                <!-- Gallery Item 1 -->
+                <div class="gallery-item">
+                    <a href="/back.html">
+                        <div class="title">Laptop</div>
+                        <img src="/images/Laptop.png" alt="Laptop"/>
+                        <div class="description">Refurbished HP Laptop. Updated to Windows 11. Copilot now included!</div>
+                    </a>
+                </div>
+
+                <!-- Gallery Item 2 -->
+                <div class="gallery-item">
+                    <a href="/back.html">
+                        <div class="title">Gaming Handheld</div>
+                        <img src="/images/GamingHandheld.png" alt="Gaming Handheld"/>
+                        <div class="description">A brand new handheld based on a very similar console for perfect for on the go gaming, modding, and even pulling mind-blowing practical jokes on your friends!</div>
+                    </a>
+                </div>
+
+                <!-- Gallery Item 3 -->
+                <div class="gallery-item">
+                    <a href="/back.html">
+                        <div class="title">Printer</div>
+                        <img src="/images/Printer.png" alt="Printer"/>
+                        <div class="description">This high tech wireless printer hooks up to ANY Windows computer to make printing faster and easier! No more printing trips to your local library! Black and white plus color ink cartridges included for free!</div>
+                    </a>
+                </div>
+
+                <!-- Gallery Item 4 -->
+                <div class="gallery-item">
+                    <a href="/back.html">
+                        <div class="title">Travel Cup</div>
+                        <img src="/images/TravelCup.png" alt="TravelCup"/>
+                        <div class="description">This snazzy metal cup is the best for whenever you're out and about and thirsty!</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Clear floats -->
+        <div class="clearfix"></div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer-clearfix"></div> <!-- Ensure footer clears floated elements -->
+    <footer>
+        <p>&copy; 2025 eBuy. All rights reserved.</p>
+    </footer>
+</body>
+</html>

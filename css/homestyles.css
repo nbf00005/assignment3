@@ -1,0 +1,159 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    border: solid black 1px;
+    width: 100%;
+}
+
+header div {
+    background: purple;
+    color: cyan;
+    text-align: center;
+    margin: 0;
+    padding: 5px;
+}
+
+/* Horizontal Navbar Styling */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: cyan;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: purple;
+}
+
+.active {
+    background-color: #4CAF50; /* Active link background color */
+}
+
+/* Main Content */
+.main-content {
+    width: 100%;
+    clear: both; /* Ensure content is cleared below floated elements */
+}
+
+/* Left Column */
+.left-col {
+    float: left;
+    width: 25%;
+    background-color: lightgray;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.left-col label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Vertical Navbar */
+.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    margin-bottom: 10px;
+}
+
+.navbar a {
+    display: block;
+    color: cyan;
+    background-color: black;
+    padding: 14px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: purple;
+}
+
+/* Right Column (Gallery) */
+.right-col {
+    float: left;
+    width: 75%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.gallery-item {
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 10px; /* Rounded corners for the borders around the images */
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+}
+
+.gallery-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.gallery-item a:hover {
+    text-decoration: underline;
+}
+
+.gallery-item .title {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.gallery-item .price {
+    color: green;
+    margin-top: 5px;
+}
+
+/* Clear floats */
+.clearfix {
+    clear: both;
+}
+
+/* Footer Styling */
+footer {
+    width: 100%;
+    background-color: #333; /* Dark background color for footer */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+/* Apply clearfix before footer */
+.footer-clearfix {
+    clear: both;
+}
